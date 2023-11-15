@@ -1,0 +1,75 @@
+/*navigation*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 145, 130);
+    text-transform: uppercase;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* inverts nav color upon hover */
+  li a:hover {
+    background-color: white;
+    color: rgb(255, 145, 130);
+  }
+
+  /*navigation end*/
+
+  body {
+    background-color: rgb(255, 145, 130);;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+}
+
+h1 { 
+    text-align: center;
+}
+
+h4 {
+    width: 400px;
+    text-align: center;
+  
+}
+
+#fname {
+    width: 300px;
+}
+
+#lname {
+    width: 300px;
+}
+
+#email {
+    width: 300px;
+}
+
+#message {
+    width: 300px;
+    height: 100px;
+    
+
+}
+
+label {
+    background-color: rgb(255, 145, 130);
+
+}
+
